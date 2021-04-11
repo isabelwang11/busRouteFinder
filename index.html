@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tranquil Travels</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <h1 id="top">TRANQUIL TRAVELS</h1>
+    <h2>Houston METRO's Bus and Rail Planner</h2>
+    <h3>by Isabel Wang, Maria Molchanova, Jasmine Bui, and Menelik Eyasu</h3>
+    <img src="metro_map.jpg" width="800px" alt="Houston City METRO Bus and Rail System Map">
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser-ce/2.16.1/phaser.js"></script>
+    <script src="script.js"></script>-->
+
+    <div id='map'>
+        <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+        <script src="https://api.mqcdn.com/sdk/mapquest-gl-js/v0.4.0/mapquest-gl.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-gl-js/v0.4.0/mapquest-gl.css"/>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="form">
+        <p style="margin: 50px">Use our services to help you find the best route for you!</p>
+        <form name="user" method="post" action="plan">
+            <p>Enter starting location (address):<input type="text" name="start"/></p>
+            <p>Enter ending location (address):<input type="text" name="end"/></p>
+            <p><input type = "submit" name="submit" value="submit"/></p> 
+        </form>
+    </div>
+
+    <hr>
+    <div>
+        <h2>About Tranquil Travels</h2>
+        <p>[description here]</p>
+    </div>
+    <a href="#top">Back to top</a>
+</body>
+
+</html>
